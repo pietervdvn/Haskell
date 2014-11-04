@@ -3,8 +3,26 @@ Haskell Introduction
 
 Hier vindt je de slideshow en opdrachten voor de haskell introductieles van Zeus WPI.
 
+Haskell installeren
+===================
+
+Linux
+-----
+
+    sudo apt-get install ghc
+    ghci <bestand.hs>
+
+Windows
+-------
+
+Computerlokaal:
+
+Je eigen laptop: [www.haskell.org/platform/]. Let op, installeren duurt eventjes!
+
 Oefeningen
 ==========
+
+Als je vast zit, vraag zeker hulp!
 
 Getting started
 ---------------
@@ -42,8 +60,19 @@ Implementeer ````mx```` die het grootste element uit een lijst van ````Int````s 
 
 Implementeer ````sum```` die alle getallen van een lijst van ````Int````s optelt.
 
-Implementeer ````length````.
+Implementeer ````length````
 
 Implementeer ````map````
 
 Implementeer ````length0````, die de lengte van de lijst berekend. Hierbij gebruik je geen recursie, maar ````sum````, ````map```` en ````giveOne````
+
+Implementeer ````reverse````, die een lijst omdraait
+
+Klaar?
+------
+
+Vond je de les interessant?
+
+Zoveel te beter! We geven (indien genoeg interesse) een volledige lessenreeks in het tweede semester.
+
+We hebben ook nog een kleine bonus waar we bewijzen dat functies correct zijn.
