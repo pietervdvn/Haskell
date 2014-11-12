@@ -17,6 +17,8 @@ Windows
 
 Computerlokaal:
 
+Athena: Academic > Hugs
+
 Je eigen laptop: [www.haskell.org/platform/]. Let op, installeren duurt eventjes!
 
 Oefeningen
@@ -29,22 +31,28 @@ Getting started
 
 Implementeer volgende functies:
 
-    const	:: a -> b -> a
+    inc		:: Int -> Int
 
-````const```` geeft altijd het eerste argument terug, en doet niets met het tweede argument.
+````inc```` geeft het gegeven getal plus 1.
+
+
+    double		:: Int -> Int
+
+````double```` geeft het dubbel van de parameter.
 
     giveOne	:: a -> Int
 
 ````giveOne```` neemt een willekeurige waarde en geeft '1' terug.
 
+    const	:: a -> b -> a
 
-    inc		:: Int -> Int
+````const```` geeft altijd het eerste argument terug, en doet niets met het tweede argument.
 
-````inc```` geeft het gegeven getal plus 1.
 
 ### Recursie
 
-Implementeer ````factorial :: Int -> Int````
+Implementeer ````faculteit :: Int -> Int````
+
 Implementeer ````fib :: Int -> Int```` die het ````n````-de fibonacci getal teruggeeft
 
 ### Higher order
@@ -64,7 +72,7 @@ Implementeer ````length````
 
 Implementeer ````map````
 
-Implementeer ````length0````, die de lengte van de lijst berekend. Hierbij gebruik je geen recursie, maar ````sum````, ````map```` en ````giveOne````
+Implementeer ````length'````, die de lengte van de lijst berekend. Hierbij gebruik je geen recursie, maar ````sum````, ````map```` en ````giveOne````
 
 Implementeer ````reverse````, die een lijst omdraait
 
