@@ -17,7 +17,10 @@ Windows
 
 Computerlokaal:
 
-Athena: Academic > Hugs
+Athena:
+	- Academic > Hugs
+	- Maak een nieuw ````bestand.hs```` op je H: schijf
+	- Laad dit in met ````openen```` in Hugs
 
 Je eigen laptop: [www.haskell.org/platform/]. Let op, installeren duurt eventjes!
 
@@ -72,7 +75,7 @@ Implementeer ````length````
 
 Implementeer ````map````
 
-Implementeer ````length'````, die de lengte van de lijst berekend. Hierbij gebruik je geen recursie, maar ````sum````, ````map```` en ````giveOne````
+Implementeer ````length'````, die de lengte van de lijst berekend. Hierbij gebruik je geen recursie, maar ````sum````, ````map```` en ````giveOne````. (Functienamen mogen single quotes bevatten)
 
 Implementeer ````reverse````, die een lijst omdraait
 
@@ -82,5 +85,4 @@ Klaar?
 Vond je de les interessant?
 
 Zoveel te beter! We geven (indien genoeg interesse) een volledige lessenreeks in het tweede semester.
-
-We hebben ook nog een kleine bonus waar we bewijzen dat functies correct zijn.
+Toon alvast je interesse hier: [feedback haskell](http://goo.gl/forms/cjqiEPni7y)
