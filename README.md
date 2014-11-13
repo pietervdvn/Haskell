@@ -72,18 +72,20 @@ Lijsten
 
 Implementeer een eigen lijst zoals in de slides.
 
+Merk op: Haskell weet niet dat je die lijst mag afprinten. Zet ````deriving Show```` achter je eigen data definities ```` data Lijst a = .... | .... deriving Show````
+
 Implementeer ````mx```` die het grootste element uit een lijst van ````Int````s haalt.
 	Je mag hiervoor if gebruiken:
 
     if voorwaarde then expressie else expressie
 
-Implementeer ````sum```` die alle getallen van een lijst van ````Int````s optelt.
+Implementeer ````som```` die alle getallen van een lijst van ````Int````s optelt.
 
 Implementeer ````length````
 
 Implementeer ````map````
 
-Implementeer ````length'````, die de lengte van de lijst berekend. Hierbij gebruik je geen recursie, maar ````sum````, ````map```` en ````giveOne````. (Functienamen mogen single quotes bevatten)
+Implementeer ````length'````, die de lengte van de lijst berekend. Hierbij gebruik je geen recursie, maar ````som````, ````map```` en ````giveOne````. (Functienamen mogen single quotes bevatten)
 
 Implementeer ````reverse````, die een lijst omdraait
 
