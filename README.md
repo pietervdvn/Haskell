@@ -81,11 +81,11 @@ Implementeer ````mx```` die het grootste element uit een lijst van ````Int````s 
 
 Implementeer ````som```` die alle getallen van een lijst van ````Int````s optelt.
 
-Implementeer ````length````
+Implementeer ````lengte````
 
-Implementeer ````map````
+Implementeer ````onEach````
 
-Implementeer ````length'````, die de lengte van de lijst berekend. Hierbij gebruik je geen recursie, maar ````som````, ````map```` en ````giveOne````. (Functienamen mogen single quotes bevatten)
+Implementeer ````lengte'````, die de lengte van de lijst berekend. Hierbij gebruik je geen recursie, maar ````som````, ````map```` en ````giveOne````. (Functienamen mogen single quotes bevatten)
 
 Implementeer ````reverse````, die een lijst omdraait
 
