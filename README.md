@@ -87,7 +87,7 @@ Implementeer ````onEach````
 
 Implementeer ````lengte'````, die de lengte van de lijst berekend. Hierbij gebruik je geen recursie, maar ````som````, ````map```` en ````giveOne````. (Functienamen mogen single quotes bevatten)
 
-Implementeer ````reverse````, die een lijst omdraait
+Implementeer ````reverse````, die een lijst omdraait. Het kan handig zijn om eerst een functie te maken die een waarde achteraan de lijst toevoegt.
 
 Klaar?
 ------
