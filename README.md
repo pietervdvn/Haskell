@@ -15,7 +15,11 @@ Linux
 Windows
 -------
 
-Computerlokaal:
+Computerlokaal Zuse:
+- Haskell Platform (mapje op bureaublad) > winGHCi
+- Maak ergens een ````Bestand.hs````
+- Openen met ````Openen````Test
+- Je kan het bestand nu aanpassen met de oranje ````edit````-knop in ghci
 
 Athena:
 	- Academic > Hugs
@@ -23,6 +27,7 @@ Athena:
 	- Laad dit in met ````openen```` in Hugs
 
 Je eigen laptop: [www.haskell.org/platform/]. Let op, installeren duurt eventjes!
+Gebruik ondertussen een computer van het lokaal.
 
 Oefeningen
 ==========
@@ -47,9 +52,9 @@ Implementeer volgende functies:
 
 ````giveOne```` neemt een willekeurige waarde en geeft '1' terug.
 
-    const	:: a -> b -> a
+    constant	:: a -> b -> a
 
-````const```` geeft altijd het eerste argument terug, en doet niets met het tweede argument.
+````constant```` geeft altijd het eerste argument terug, en doet niets met het tweede argument.
 
 
 ### Recursie
