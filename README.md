@@ -73,6 +73,9 @@ Lijsten
 Implementeer een eigen lijst zoals in de slides.
 
 Implementeer ````mx```` die het grootste element uit een lijst van ````Int````s haalt.
+	Je mag hiervoor if gebruiken:
+
+    if voorwaarde then expressie else expressie
 
 Implementeer ````sum```` die alle getallen van een lijst van ````Int````s optelt.
 
