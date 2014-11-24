@@ -1,7 +1,7 @@
 Haskell Introduction
 ====================
 
-Hier vindt je de slideshow en opdrachten voor de haskell introductieles van Zeus WPI.
+Hier vind je de slideshow en opdrachten voor de haskell introductieles van Zeus WPI.
 
 Haskell installeren
 ===================
