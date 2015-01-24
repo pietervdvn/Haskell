@@ -9,8 +9,8 @@ De introductieles was een warmmaker, met het idee "haskell is cool". Ik wou bij 
 # Les 1
 > Let's get started
 
-- Simpele functies
 - Simpele basistypes (Bool, Int, List)
+- Simpele functies
 - Pattern matching (kleine intro met lijsten)
 - Sum
 - Higher order functions
