@@ -30,5 +30,5 @@ Athena (jammergenoeg verouderd):
 - Laad dit in met ````openen```` in Hugs
 
 
-Je eigen laptop: [www.haskell.org/platform/]. Let op, installeren duurt eventjes!
+Je eigen laptop: www.haskell.org/platform/. Let op, installeren duurt eventjes!
 Gebruik ondertussen een computer van het lokaal.
