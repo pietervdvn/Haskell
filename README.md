@@ -21,6 +21,10 @@ OSx
 
     brew install ghc
     ghci <bestand.hs>
+    
+Heb je nog geen brew, installeer deze met
+
+    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" 
 
 Windows
 -------
