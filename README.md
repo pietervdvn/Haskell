@@ -15,6 +15,16 @@ Linux
 
     sudo apt-get install ghc
     ghci <bestand.hs>
+    
+OSx
+---
+
+    brew install ghc
+    ghci <bestand.hs>
+    
+Heb je nog geen brew, installeer deze met
+
+    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" 
 
 Windows
 -------
@@ -22,7 +32,7 @@ Windows
 Computerlokaal Zuse:
 - Haskell Platform (mapje op bureaublad) > winGHCi
 - Maak ergens een ````Bestand.hs````
-- Openen met ````Openen````Test
+- Openen met ````Openen````
 - Je kan het bestand nu aanpassen met de oranje ````edit````-knop in ghci
 
 Athena (jammergenoeg verouderd):
