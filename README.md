@@ -32,7 +32,7 @@ Windows
 Computerlokaal Zuse:
 - Haskell Platform (mapje op bureaublad) > winGHCi
 - Maak ergens een ````Bestand.hs````
-- Openen met ````Openen````Test
+- Openen met ````Openen````
 - Je kan het bestand nu aanpassen met de oranje ````edit````-knop in ghci
 
 Athena (jammergenoeg verouderd):
