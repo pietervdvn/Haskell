@@ -1,7 +1,7 @@
 Haskell Lessenreeks
 ===================
 
-Hier vindt je de slideshows en oefeningen voor de haskell-lesesn van Ghent FPG (met ondersteuning door Zeus WPI).
+Hier vind je de slideshows en oefeningen voor de haskell-lesesn van Ghent FPG (met ondersteuning door Zeus WPI).
 
 Raak je achterop tijdens de les, maak je geen zorgen! De slides komen online, en voor de oefeningen moet je ook de dingen van de slides doen.
 
