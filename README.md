@@ -24,9 +24,10 @@ Computerlokaal Zuse:
 - Je kan het bestand nu aanpassen met de oranje ````edit````-knop in ghci
 
 Athena (jammergenoeg verouderd):
-	- Academic > Hugs
-	- Maak een nieuw ````bestand.hs```` op je H: schijf
-	- Laad dit in met ````openen```` in Hugs
+
+- Academic > Hugs
+- Maak een nieuw ````bestand.hs```` op je H: schijf
+- Laad dit in met ````openen```` in Hugs
 
 
 Je eigen laptop: [www.haskell.org/platform/]. Let op, installeren duurt eventjes!
