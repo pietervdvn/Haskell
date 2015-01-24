@@ -1,9 +1,11 @@
 Haskell Lessenreeks
 ===================
 
-Hier vind je de slideshows en oefeningen voor de haskell-lessen van Ghent FPG (met ondersteuning door Zeus WPI).
+Hier vind je de slideshows en oefeningen voor de haskell-lessen, georganiseerd door Ghent FPG (met ondersteuning door Zeus WPI).
 
-Raak je achterop tijdens de les, maak je geen zorgen! De slides komen online, en voor de oefeningen moet je ook de dingen van de slides doen.
+De slides en oefeningen worden na de les online gezet.
+
+Het is de bedoeling dat je op de computer meevolgt en uitprobeert tijdens de slideshow. Raak je achterop tijdens de les, maak je geen zorgen! De slides komen online, en voor de oefeningen moet je ook de dingen van de slides doen.
 
 Haskell installeren
 ===================
@@ -30,5 +32,5 @@ Athena (jammergenoeg verouderd):
 - Laad dit in met ````openen```` in Hugs
 
 
-Je eigen laptop: www.haskell.org/platform/. Let op, installeren duurt eventjes!
+Je eigen laptop: www.haskell.org/platform/ . Let op, installeren duurt eventjes!
 Gebruik ondertussen een computer van het lokaal.
