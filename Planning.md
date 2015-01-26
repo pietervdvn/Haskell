@@ -31,34 +31,44 @@ Oefeningen: hogerer orde functies (.) en ($), foldr, foldl, filter, zip, const, 
 - Map met lambda over default list
 - Map met currying
 
-- ADTs
-- Wat is een constructor?
-- Zelf bool, maybe en lijst maken
-- Advanced pattern matching
-- Recursieve datatypes
-- Frees in datatypes, polymorfisme
-- Zelf map maken
-- Maybe monad voorbeeld
+- Simpele ADTs (zelf Bool maken, een Person voorbeeld)
+- Een constructor is een functie
+- Pattern matching met constructoren
 
+- Reader Monad voorbeeld
 - Tooling: modules
 
+
 # Les 3
+> Advanced Data Types
+
+- ADTs met polymorfisme (Maybe), Frees in datatypes, polymorfisme
+- Recursieve datatypes
+- Zelf map maken
+- Tuples
+- Functoren + fmap (List, Maybe, Either, Tuple)
+- instance declareren
+
+- Maybe monad voorbeeld
+- Tooling: haddock
+
+
+# Les 4
 > Categorieën en types
 
-- Tuples
-- Functoren (List, Maybe, Either, Tuple)
 - class; instance
 - Show, Eq, Ord
 - Wij zijn lui: deriving
 - Type alias: String; html;
-- Reader monad voorbeeld
+- Writer monad voorbeeld
 
 - Tooling: hlint
 
-# Les 4
+# Les 5
 > Een goede informaticus moet lui zijn; net zoals zijn taal
 
-- Records: Faux OO
+- Records: Faux OO (kort)
+
 - Lazyness: wat?
 - Gevolgen voor controlestructuren (if)
 - Infinite lists + drop
@@ -66,11 +76,11 @@ Oefeningen: hogerer orde functies (.) en ($), foldr, foldl, filter, zip, const, 
 - Tying knots
 - Overlopen boom in 1 pass
 - Performance issues: seq
-- State monad
 
+- State monad voorbeeld
 - Tooling: quickcheck
 
-# Les 5
+# Les 6
 > A Hard truth; followed by warm and fuzzy things
 
 - Bottom, undefined, error
@@ -81,4 +91,4 @@ Oefeningen: hogerer orde functies (.) en ($), foldr, foldl, filter, zip, const, 
 - IO type + monad
 - List comprehension naar do
 
-- Tooling: compiling  code, cabal?
+- Tooling: compiling  code, cabal
