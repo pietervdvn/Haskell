@@ -6,7 +6,7 @@ Slides worden na de les, voor de oefeningen ook geupload naar de repo.
 
 De introductieles was een warmmaker, met het idee "haskell is cool". Ik wou bij de "map"-functie raken op een zelfgedefinieerde lijst, omdat dat een krachtig voorbeeld is. Daardoor zijn er een aantal concepten niet aan bod gekomen, waar we nu wel onze tijd voor nemen.
 
-# Les 1
+# Les 1 (week 2)
 > Let's get started
 
 - Simpele basistypes (Bool, Int, List)
@@ -36,16 +36,16 @@ Oefeningen: hogerer orde functies (.) en ($), foldr, foldl, filter, zip, const, 
 - Pattern matching met constructoren
 
 - Reader Monad voorbeeld
-- Tooling: modules
+- Tooling: modules + imports
 
 
 # Les 3
 > Advanced Data Types
 
-- ADTs met polymorfisme (Maybe), Frees in datatypes, polymorfisme
-- Recursieve datatypes
-- Zelf map maken
 - Tuples
+- ADTs met polymorfisme (Maybe), Frees in datatypes, polymorfisme
+- Recursieve datatypes (List, Tree)
+- Zelf map maken
 - Functoren + fmap (List, Maybe, Either, Tuple)
 - instance declareren
 
@@ -60,8 +60,8 @@ Oefeningen: hogerer orde functies (.) en ($), foldr, foldl, filter, zip, const, 
 - Show, Eq, Ord
 - Wij zijn lui: deriving
 - Type alias: String; html;
-- Writer monad voorbeeld
 
+- Writer monad voorbeeld
 - Tooling: hlint
 
 # Les 5
@@ -71,16 +71,16 @@ Oefeningen: hogerer orde functies (.) en ($), foldr, foldl, filter, zip, const, 
 
 - Lazyness: wat?
 - Gevolgen voor controlestructuren (if)
-- Infinite lists + drop
+- Infinite lists + drop 5 nats
 - Infinite lists zoals fib
 - Tying knots
-- Overlopen boom in 1 pass
+- Overlopen lijst in 1 pass (minimum berekenen en overal)
 - Performance issues: seq
 
 - State monad voorbeeld
 - Tooling: quickcheck
 
-# Les 6
+# Les 6 (week 7)
 > A Hard truth; followed by warm and fuzzy things
 
 - Bottom, undefined, error
@@ -89,6 +89,18 @@ Oefeningen: hogerer orde functies (.) en ($), foldr, foldl, filter, zip, const, 
 - Monads
 - Voorbeeld: parser monad
 - IO type + monad
-- List comprehension naar do
+- List comprehension naar do [ (x,y) | x <- xs, y <- ys]
 
-- Tooling: compiling  code, cabal
+- Tooling: compiling code, cabal
+
+- Project: eventueel in groep, als zelf een goed idee, ook goed (bv Number Seven). Default: while, met of zonder html printing
+
+# Project: hulpavond
+
+# Project: hulpavond2
+
+# Project: voorstellingsavond + kom helpen aan mijn project avond (lang) (week 10)
+
+# Haskellhacking
+
+# Haskellhacking (week 12, EOF)
