@@ -13,8 +13,8 @@ De introductieles was een warmmaker, met het idee "haskell is cool". Ik wou bij 
 - Simpele functies
 - Pattern matching (kleine intro met lijsten)
 - Sum
-- Higher order functions
 - Free's in functions
+- Higher order functions
 - Lijst, map over lijst
 - Lijst monad voorbeeld: higher order programming
 

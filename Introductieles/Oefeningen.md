@@ -6,6 +6,10 @@ Als je vast zit, vraag zeker hulp!
 Getting started
 ---------------
 
+Zet volgende code bovenaan, om een aantal conflicten te vermijden
+
+    import qualified Prelude
+
 Implementeer volgende functies:
 
     inc		:: Int -> Int
