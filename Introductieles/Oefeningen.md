@@ -6,7 +6,7 @@ Als je vast zit, vraag zeker hulp!
 Getting started
 ---------------
 
-Zet volgende code bovenaan, om een aantal conflicten te vermijden
+Zet volgende code bovenaan, om een aantal conflicten te
 
     import qualified Prelude
 
@@ -25,9 +25,9 @@ Implementeer volgende functies:
 
 ````giveOne```` neemt een willekeurige waarde en geeft '1' terug.
 
-    constant	:: a -> b -> a
+    const	:: a -> b -> a
 
-````constant```` geeft altijd het eerste argument terug, en doet niets met het tweede argument.
+````const```` geeft altijd het eerste argument terug, en doet niets met het tweede argument.
 
 
 ### Recursie
