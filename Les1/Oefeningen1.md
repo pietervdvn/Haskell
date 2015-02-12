@@ -8,7 +8,7 @@ Getting started
 
 Zet volgende code bovenaan, om een aantal conflicten te vermijden
 
-    import Prelude (Int, Bool, String, (+), (*))
+    import Prelude (Int, Bool(True, False), String, (+), (*), (-))
 
 Implementeer volgende functies:
 
