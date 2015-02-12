@@ -8,7 +8,7 @@ Getting started
 
 Zet volgende code bovenaan, om een aantal conflicten te vermijden
 
-    import Prelude showing (Int, Bool, String)
+    import Prelude (Int, Bool, String, (+), (*))
 
 Implementeer volgende functies:
 
@@ -25,7 +25,7 @@ Implementeer volgende functies:
 
 ````giveOne```` neemt een willekeurige waarde en geeft '1' terug.
 
-   id		:: a -> a
+    id		:: a -> a
 
 ````id```` geeft gewoon zijn argument terug. Hint: zoek het niet te ver!
 
@@ -33,7 +33,7 @@ Implementeer volgende functies:
 
 ````const```` geeft altijd het eerste argument terug, en doet niets met het tweede argument.
 
-### Pattern matching
+#### Pattern matching
 
 Implementeer ````&&````, de logische 'en'-operator.
 
@@ -47,17 +47,17 @@ Om een infix operator te implementeren, zet je er haakjes rond:
 
 Analoog: implementeer ````||```` en ````not````.
 
-### Recursie
+#### Recursie
 
 Implementeer ````faculteit :: Int -> Int````
 
 Implementeer ````fib :: Int -> Int```` die het ````n````-de fibonacci getal teruggeeft
 
-### Higher order
+#### Higher order
 
 Implementeer ````doTwice````
 
-#### Dollar
+##### Dollar
 
 Implementeer ````$````. Deze neemt een functie en een argument, en voert de functie uit op dit argument.
 
@@ -70,7 +70,7 @@ Deze functie is nuttig om haakjes te vermijden:
     inc $ inc $ inc 5	= inc (inc (inc 5))
 
 
-#### Dot
+##### Dot
 
 
 Implementeer ````.````. De ````.````-operator neemt twee functies (en een argument), en voert de ene functie na de andere uit (op dit argument).
@@ -90,6 +90,8 @@ Analoog: implementeer ````or````.
 Implementeer ````sum````.
 
 Implementeer ````length```` (met behulp van recursie).
+
+#### Higher order
 
 Implementeer ````map````. Bekijk de slides indien je vast zit.
 
