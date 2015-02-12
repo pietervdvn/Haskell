@@ -6,7 +6,7 @@ Als je vast zit, vraag zeker hulp! Je kunt ook de slides bekijken, waar veel voo
 Getting started
 ---------------
 
-Zet volgende code bovenaan, om een aantal conflicten te vermijden. De exacte betekenis hiervan bekijken we een volgende les.
+Zet volgende code bovenaan. Deze code zorgt ervoor dat Haskell een aantal ingebouwde functies 'vergeet', zodat wij ze opnieuw kunnen maken.
 
     import Prelude (Int, Bool(True, False), String, (+), (*), (-))
 
@@ -104,3 +104,21 @@ Implementeer ````length0````. Het berekent de lengte van een lijst, maar deze su
 Implementeer ````doeElk````. Bekijk de slides indien je vast zit.
 
 Experimenteer met deze doeElk.
+
+
+Tooling
+-------
+
+Start een nieuwe, blanco ````ghci````-sessie, zodat we weer aan alle ingebouwde functies kunnen.
+
+Wat is het type van ````(+)````, ````div````, ````mod````, ````sum````, ````max````, ````maximum````. Wat denk je dat deze functies doen?
+
+Wat is het type van ````(>>=)````? Vergelijk dit type met dat van ````doeElk````.
+
+### Hoogle
+
+Wat zijn de ingebouwde functies met type ````Bool -> Bool -> Bool````?
+
+Is er een ingebouwde functie die, uit een geheel getal ````i :: Int```` en een element ````a````  een lijst met ````i```` elementen maakt?
+
+Is er een functie, die ````i```` elementen laat vallen van een lijst?
