@@ -6,7 +6,7 @@ Als je vast zit, vraag zeker hulp! Je kunt ook de slides bekijken, waar veel voo
 Getting started
 ---------------
 
-Zet volgende code bovenaan, om een aantal conflicten te vermijden
+Zet volgende code bovenaan, om een aantal conflicten te vermijden. De exacte betekenis hiervan bekijken we een volgende les.
 
     import Prelude (Int, Bool(True, False), String, (+), (*), (-))
 
