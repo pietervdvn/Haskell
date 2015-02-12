@@ -95,6 +95,8 @@ Implementeer ````add````, die een element _op het einde_ van de lijst toevoegt. 
 
 Implementeer ````++````, die twee lijsten samenvoegt.
 
+Implementeer ````concat````, die een lijst van lijsten samenvoegt tot een lijst. Hing: ````concat :: [[a]] -> [a]````
+
 #### Higher order
 
 Implementeer ````map````. Bekijk de slides indien je vast zit.
@@ -105,6 +107,9 @@ Implementeer ````doeElk````. Bekijk de slides indien je vast zit.
 
 Experimenteer met deze doeElk.
 
+Implementeer ````concatMap````. Bekijk de slides indien je vast zit.
+
+Experimenteer met concatMap.
 
 Tooling
 -------
@@ -113,11 +118,17 @@ Start een nieuwe, blanco ````ghci````-sessie, zodat we weer aan alle ingebouwde 
 
 Wat is het type van ````(+)````, ````div````, ````mod````, ````sum````, ````max````, ````maximum````. Wat denk je dat deze functies doen?
 
-Wat is het type van ````(>>=)````? Vergelijk dit type met dat van ````doeElk````.
+Wat is het type van ````(>>=)````? Vergelijk dit type met dat van ````concatMap````. Kun je ````>>=```` gebruiken ipv ````concatMap````?
+
+Importeer ````Data.Applicative```` (dus typ in ghci:````import Data.Applicative```` ).
+Wat is het type van ````<*>````? Vergelijk dit met ````doeElk````. Kun je ````<*>```` gebruiken ipv ````doeElk````.
+
 
 ### Hoogle
 
 Wat zijn de ingebouwde functies met type ````Bool -> Bool -> Bool````?
+
+Is er een functie, die gegeven een functie ````a -> Bool```` en een lijst ````[a]````, een nieuwe lijst geeft, met enkel elementen waar ````f a == True````?
 
 Is er een ingebouwde functie die, uit een geheel getal ````i :: Int```` en een element ````a````  een lijst met ````i```` elementen maakt?
 
