@@ -16,8 +16,8 @@ Linux
     sudo apt-get install ghc
     ghci <bestand.hs>
 
-OSx
----
+Mac OS X
+--------
 
     brew install ghc
     ghci <bestand.hs>
