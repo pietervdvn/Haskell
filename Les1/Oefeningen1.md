@@ -79,6 +79,12 @@ Implementeer ````.````. De ````.````-operator neemt twee functies (en een argume
     (inc . double) 5	= inc (double 5)
     (double . inc . double) 10	= double (inc (double 10))
 
+##### Flip
+
+Implementeer ````flip````, die een functie neemt en zijn argumenten omdraait. (Ofwel: een functie neemt, twee argumenten en die argumenten in omgekeerde volgorde toepast)
+
+   flip f b a	= f a b
+
 
 Lijsten
 -------

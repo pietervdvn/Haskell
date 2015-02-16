@@ -23,8 +23,13 @@ De introductieles was een warmmaker, met het idee "haskell is cool". Ik wou bij 
 
 Oefeningen: hogerer orde functies (.) en ($), foldr, foldl, filter, zip, const, sum, prod, length (met const+map en recursief)
 
-# Les 2
+
+# VPW
 25/02
+> Geen les
+
+# Les 2
+04/03
 > Functies zijn cool, constructoren zijn functies
 
 - if/else; case
@@ -42,7 +47,7 @@ Oefeningen: hogerer orde functies (.) en ($), foldr, foldl, filter, zip, const, 
 
 
 # Les 3
-04/03
+11/03
 > Advanced Data Types
 
 - Tuples
@@ -57,7 +62,7 @@ Oefeningen: hogerer orde functies (.) en ($), foldr, foldl, filter, zip, const, 
 
 
 # Les 4
-11/03
+18/03
 > Categorieën en types
 
 - class; instance
@@ -69,7 +74,7 @@ Oefeningen: hogerer orde functies (.) en ($), foldr, foldl, filter, zip, const, 
 - Tooling: hlint
 
 # Les 5
-18/03
+25/03
 > Een goede informaticus moet lui zijn; net zoals zijn taal
 
 - Records: Faux OO (kort)
@@ -86,7 +91,7 @@ Oefeningen: hogerer orde functies (.) en ($), foldr, foldl, filter, zip, const, 
 - Tooling: quickcheck
 
 # Les 6 (week 7)
-25/03
+01/04
 > A Hard truth; followed by warm and fuzzy things
 
 - Bottom, undefined, error
@@ -101,20 +106,17 @@ Oefeningen: hogerer orde functies (.) en ($), foldr, foldl, filter, zip, const, 
 
 - Project: eventueel in groep, als zelf een goed idee, ook goed (bv Number Seven). Default: while, met of zonder html printing
 
-# Project: hulpavond
-01/04
-
 #Paasreces:
 8/04
 15/04
 
-# Project: hulpavond2
+# Project: hulpavond/deadline
 22/04
 
 # Project: voorstellingsavond + kom helpen aan mijn project avond (lang) (week 10)
 29/04
 
-# Haskellhacking
+# Haskellhacking of coole talk
 22/04
 
 # Haskellhacking (week 12, EOF)
