@@ -44,3 +44,12 @@ Athena (jammergenoeg verouderd):
 
 Je eigen laptop: www.haskell.org/platform/ . Let op, installeren duurt eventjes!
 Gebruik ondertussen een computer van het lokaal.
+
+
+Volgende lessen
+===============
+
+Woensdag 18/02
+-Valt weg wegens VPW: woensdag 25/02-
+Woensdag 04/03
+verder elke woensdag, tenzij anders aangegeven

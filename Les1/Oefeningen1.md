@@ -139,3 +139,9 @@ Is er een functie, die gegeven een functie ````a -> Bool```` en een lijst ````[a
 Is er een ingebouwde functie die, uit een geheel getal ````i :: Int```` en een element ````a````  een lijst met ````i```` elementen maakt?
 
 Is er een functie, die ````i```` elementen laat vallen van een lijst?
+
+# Volgende les: over twee weken
+
+Volgende week is het Vlaamse Programmeerwedstrijd, de meesten onder ons (inclusief uw docent) zullen dus maar laat weer in Gent zijn.
+
+Zet dus maar op uw agenda: 4 maart, 18u30, Mercator, S8. We zien je dan voor het vervolg van onze avonturen een Haskellandia!
