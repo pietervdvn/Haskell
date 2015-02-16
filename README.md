@@ -49,9 +49,13 @@ Gebruik ondertussen een computer van het lokaal.
 Volgende lessen
 ===============
 
-Woensdag 18/02
+Elke woensdag, om 18u30 in PC-zaal Mercator (S8).
 
-~~Valt weg wegens VPW: woensdag 25/02~~
+Gepland:
 
-Woensdag 04/03
-verder elke woensdag, tenzij anders aangegeven
+- Woensdag 18/02
+- ~~Valt weg wegens VPW: woensdag 25/02~~
+- Woensdag 04/03
+- ...
+
+Zie [Planning.md] voor meer details.
