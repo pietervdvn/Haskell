@@ -50,6 +50,8 @@ Volgende lessen
 ===============
 
 Woensdag 18/02
--Valt weg wegens VPW: woensdag 25/02-
+
+~~Valt weg wegens VPW: woensdag 25/02~~
+
 Woensdag 04/03
 verder elke woensdag, tenzij anders aangegeven
