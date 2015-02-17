@@ -144,4 +144,4 @@ Is er een functie, die ````i```` elementen laat vallen van een lijst?
 
 Volgende week is het Vlaamse Programmeerwedstrijd, de meesten onder ons (inclusief uw docent) zullen dus maar laat weer in Gent zijn.
 
-Zet dus maar op uw agenda: 4 maart, 18u30, Mercator, S8. We zien je dan voor het vervolg van onze avonturen een Haskellandia!
+Zet dus maar op uw agenda: 4 maart, 18u30, Mercator, S8. We zien je dan voor het deel 2 (van veel) van onze avonturen een Haskellandia!
