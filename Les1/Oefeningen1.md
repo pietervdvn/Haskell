@@ -59,6 +59,8 @@ Implementeer ````doTwice````
 
 ##### Dollar
 
+
+
 Implementeer ````$````. Deze neemt een functie en een argument, en voert de functie uit op dit argument.
 
     inc $ 5
@@ -69,6 +71,8 @@ Deze functie is nuttig om haakjes te vermijden:
 
     inc $ inc $ inc 5	= inc (inc (inc 5))
 
+Om dit te laten werken, moet je er ook nog ````infixr 9 $````
+
 
 ##### Dot
 
@@ -78,6 +82,9 @@ Implementeer ````.````. De ````.````-operator neemt twee functies (en een argume
     (f . g) a	= f (g a)
     (inc . double) 5	= inc (double 5)
     (double . inc . double) 10	= double (inc (double 10))
+
+Om dit te laten werken, moet je er ook nog ````infixr 9 .````
+
 
 ##### Flip
 
