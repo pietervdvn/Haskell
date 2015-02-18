@@ -108,7 +108,7 @@ Implementeer ````add````, die een element _op het einde_ van de lijst toevoegt. 
 
 Implementeer ````++````, die twee lijsten samenvoegt.
 
-Implementeer ````concat````, die een lijst van lijsten samenvoegt tot een lijst. Hing: ````concat :: [[a]] -> [a]````
+Implementeer ````concat````, die een lijst van lijsten samenvoegt tot een lijst. Hint: ````concat :: [[a]] -> [a]````
 
 #### Higher order
 
