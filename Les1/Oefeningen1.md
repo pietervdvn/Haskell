@@ -104,7 +104,7 @@ Implementeer ````sum````.
 
 Implementeer ````length```` (met behulp van recursie).
 
-Implementeer ````add````, die een element _op het einde_ van de lijst toevoegt. Hint: ````add a [] = a````.
+Implementeer ````add````, die een element _op het einde_ van de lijst toevoegt. Hint: ````add a [] = [a]````.
 
 Implementeer ````++````, die twee lijsten samenvoegt.
 
