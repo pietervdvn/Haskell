@@ -117,6 +117,15 @@ Implementeer ````concatMap````. Bekijk de slides indien je vast zit.
 
 Experimenteer met concatMap.
 
+#### Reduce
+
+Implementeer  ````reduce````
+
+Herimplementeer ````sum````,````product```` met reduce.
+
+Implementeer  ````any````. Deze kijkt of er minstens 1 True in de lijst zit, zoniet geeft die false.
+
+
 Tooling
 -------
 
