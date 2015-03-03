@@ -40,7 +40,7 @@ De datastructuur ````Exp```` stelt een wiskunde-expressie voor:
 
     data Exp	= Const Int
 		| Add Exp Exp
-		| Mul Exp Exp
+		| Min Exp Exp
 		| Mul Exp Exp
 		| Mod Exp Exp -- Modulo van twee subexpressies
 
