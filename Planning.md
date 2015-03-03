@@ -42,45 +42,33 @@ Oefeningen: hogerer orde functies (.) en ($), foldr, foldl, filter, zip, const, 
 - Een constructor is een functie
 - Pattern matching met constructoren
 
-- Reader Monad voorbeeld
+- Maybe monad voorbeeld
 - Tooling: modules + imports
+- Tooling: hlint
 
 
 # Les 3
 11/03
-> Advanced Data Types
-
-- Tuples
-- ADTs met polymorfisme (Maybe), Frees in datatypes, polymorfisme
-- Recursieve datatypes (List, Tree)
-- Zelf map maken
-- Functoren + fmap (List, Maybe, Either, Tuple)
-- instance declareren
-
-- Maybe monad voorbeeld
-- Tooling: haddock
-
-
-# Les 4
-18/03
 > Categorieën en types
 
 - class; instance
 - Show, Eq, Ord
 - Wij zijn lui: deriving
 - Type alias: String; html;
+- Functoren + fmap (List, Maybe, Either, Tuple)
+- instance declareren
 
+- Tooling: haddock
 - Writer monad voorbeeld
-- Tooling: hlint
 
-# Les 5
-25/03
+# Les 4
+18/03
 > Een goede informaticus moet lui zijn; net zoals zijn taal
 
 - Records: Faux OO (kort)
 
 - Lazyness: wat?
-- Gevolgen voor controlestructuren (if)
+- Gevolgen voor controlestructuren (if, shortcircuit of && : True True vs True a = a, and/or lazy)
 - Infinite lists + drop 5 nats
 - Infinite lists zoals fib
 - Tying knots
@@ -90,8 +78,8 @@ Oefeningen: hogerer orde functies (.) en ($), foldr, foldl, filter, zip, const, 
 - State monad voorbeeld
 - Tooling: quickcheck
 
-# Les 6 (week 7)
-01/04
+# Les 5 (week 7)
+25/03
 > A Hard truth; followed by warm and fuzzy things
 
 - Bottom, undefined, error
@@ -105,6 +93,12 @@ Oefeningen: hogerer orde functies (.) en ($), foldr, foldl, filter, zip, const, 
 - Tooling: compiling code, cabal
 
 - Project: eventueel in groep, als zelf een goed idee, ook goed (bv Number Seven). Default: while, met of zonder html printing
+
+# Interessant onderwerp, Project: hulpavond
+01/04
+> We zien wel wat we deze les doen :p
+
+
 
 #Paasreces:
 8/04
