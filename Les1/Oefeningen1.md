@@ -142,7 +142,7 @@ Wat is het type van ````(+)````, ````div````, ````mod````, ````sum````, ````max`
 
 Wat is het type van ````(>>=)````? Vergelijk dit type met dat van ````concatMap````. Kun je ````>>=```` gebruiken ipv ````concatMap````?
 
-Importeer ````Data.Applicative```` (dus typ in ghci:````import Data.Applicative```` ).
+Importeer ````Control.Applicative```` (dus typ in ghci:````import Control.Applicative```` ).
 Wat is het type van ````<*>````? Vergelijk dit met ````doeElk````. Kun je ````<*>```` gebruiken ipv ````doeElk````.
 
 
