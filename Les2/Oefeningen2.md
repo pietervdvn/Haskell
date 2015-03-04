@@ -8,6 +8,8 @@ Tooling
 
 Indien je de tooling-oefeningen van vorige les nog niet hebt gemaakt, doe deze dan eerst.
 
+Bekijk eens [Geslacht.hs](Geslacht.hs), een voorbeeldje van een module.
+
 
 Boolean
 -------
