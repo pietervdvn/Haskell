@@ -53,7 +53,7 @@ Een voorbeeld van zo een expressie is:
 
     Add (Const 2) (Mul (Const 2) (Min (Const 120) (Const 100)))
 
-Wat gelijk is aan ````(2 + (2 * (120 `mod` 100)))````
+Wat gelijk is aan ````(2 + (2 * (120 - 100)))````
 
 Schrijf de functie ````eval````, die een expressie krijgt en uitrekent aan hoeveel die gelijk is.
 
