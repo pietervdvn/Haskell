@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HASKELLDINGEN</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <style type="text/css">
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif' }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-size: 20pt; font-family: 'Ubuntu Mono'; }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+
+# Hallo ik ben Ilion
+###Ik ga dingen vertellen
+
+---
+class: center, middle
+
+1. Eta-reductie
+2. functiecompositie
+3. Pointfree functies
+
+---
+class: center, middle
+#Eta-reductie
+
+---
+```
+sum lijst = foldr (+) 0 lijst
+```
+--
+```
+sum = foldr (+) 0
+```
+---
+class: center, middle
+# Functiecompositie
+---
+```
+lookup    :: a -> [(a,b)] -> Maybe b
+```
+--
+name: lookup-fromMaybe
+```
+fromMaybe :: a -> Maybe a -> a
+```
+--
+```
+lookupWithDefault :: b -> a -> [(a,b)] -> b
+```
+---
+template: lookup-fromMaybe
+```
+lookupWithDefault :: b -> a -> [(a,b)] -> b
+lookupWithDefault b a associative =
+        fromMaybe b . lookup a associative
+```
+---
+template: lookup-fromMaybe
+```
+lookupWithDefault :: b -> a -> [(a,b)] -> b
+lookupWithDefault b = fromMaybe b . lookup ?
+```
+--
+```
+(.)             :: (b -> c) -> (a -> b) -> a -> c
+(fromMaybe b .) :: (a -> Maybe c) -> a -> c
+```
+---
+template: lookup-fromMaybe
+```
+lookupWithDefault :: b -> a -> [(a,b)] -> b
+lookupWithDefault b a = fromMaybe b . lookup a
+```
+---
+class: center, middle
+# Pointfree
+--
+?
+--
+
+### Meer puntjes in je code
+---
+```
+sum = foldr (+) 0
+```
+--
+name: kwadrsom
+```
+kwadratischeSom = sum . map (**2)
+```
+--
+```
+kwadratischeSomVanVerdubbeldeVierkantsWortels = 
+        sum . map (**2) . map (*2) . map (sqrt)
+```
+--
+
+###Beter:
+```
+kwadratischeSomVanVerdubbeldeVierkantsWortels =
+        sum . map ((**2) . (*2) . (sqrt))
+```
+---
+class: center, middle
+#Vragen?
+
+
+
+
+    </textarea>
+    <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>
