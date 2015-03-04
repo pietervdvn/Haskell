@@ -42,12 +42,14 @@ De datastructuur ````Exp```` stelt een wiskunde-expressie voor:
 		| Add Exp Exp
 		| Min Exp Exp
 		| Mul Exp Exp
-		| Mod Exp Exp -- Modulo van twee subexpressies
+	deriving (Show)
 
+
+````deriving (Show)```` zorgt ervoor dat Haskell dit kan afprinten.
 
 Een voorbeeld van zo een expressie is:
 
-    Add (Const 2) (Mul (Const 2) (Mod (Const 120) (Const 100)))
+    Add (Const 2) (Mul (Const 2) (Min (Const 120) (Const 100)))
 
 Wat gelijk is aan ````(2 + (2 * (120 `mod` 100)))````
 
