@@ -31,6 +31,8 @@ Oefeningen: hogerer orde functies (.) en ($), foldr, foldl, filter, zip, const, 
 # Les 2
 04/03
 > Functies zijn cool, constructoren zijn functies
+10p (~4 S9eners), 2-3 stack machines
+
 
 - if/else; case
 - Lambda functies
@@ -50,6 +52,9 @@ Oefeningen: hogerer orde functies (.) en ($), foldr, foldl, filter, zip, const, 
 # Les 3
 11/03
 > Categorieën en types
+
+- guards
+- let en where
 
 - class; instance
 - Show, Eq, Ord
