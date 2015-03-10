@@ -11,3 +11,8 @@ Schrijf een berekening die twee getallen deelt. Indien de noemer nul is, wordt e
 Schrijf een functie die elk elk getal uit een lijst deelt door het andere:
 
     divideEach [10,20,30,3,0] [2,5,0,3,0]	== Writer ["Started divideEach", "Could not divide 30 by zero", "Could not divide 0 by zero"] [5,4,0,1,0]
+
+HTML
+====
+
+Zie Set2.pdf, vanaf "Type Classes". Oef 8 mag je overslaan.
