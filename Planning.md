@@ -52,6 +52,7 @@ Oefeningen: hogerer orde functies (.) en ($), foldr, foldl, filter, zip, const, 
 # Les 3
 11/03
 > Categorieën en types
+10p, 7p writer afgewerkt,
 
 - guards
 - let en where
