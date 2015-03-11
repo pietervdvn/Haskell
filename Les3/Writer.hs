@@ -26,3 +26,19 @@ andThen (Writer log a) a2wb
 -- | Executes the first writer, throws away its result (but not its logs), then evaluates the second parser
 andThen' wa wb
 	= wa `andThen` const wb
+
+
+
+
+
+divideOne	:: Int -> Int -> Writer [String] Int
+divideOne i 0	= tell ["Gelieve "++show i++" niet door 0 te delen"] `andThen'` return 0
+divideOne i j	= return $ i `div` j
+
+
+divideEach	:: [Int] -> [Int] -> Writer [String] [Int]
+divideEach [] [] 	= return []
+divideEach (a:as) (b:bs)
+	= divideOne a b `andThen`
+		(\ i -> divideEach as bs `andThen`
+		(\ is -> return $ i:is ))
