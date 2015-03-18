@@ -70,6 +70,7 @@ Oefeningen: hogerer orde functies (.) en ($), foldr, foldl, filter, zip, const, 
 # Les 4
 18/03
 > Een goede informaticus moet lui zijn; net zoals zijn taal
+7p, state is moeilijk
 
 - Records: Faux OO (kort)
 
