@@ -78,6 +78,7 @@ Oefeningen: hogerer orde functies (.) en ($), foldr, foldl, filter, zip, const, 
 - Infinite lists + drop 5 nats
 - Infinite lists zoals fib
 - Tying knots
+
 - Overlopen lijst in 1 pass (minimum berekenen en overal)
 - Performance issues: seq
 
@@ -104,6 +105,9 @@ Oefeningen: hogerer orde functies (.) en ($), foldr, foldl, filter, zip, const, 
 01/04
 > We zien wel wat we deze les doen :p
 
+- Lambda-calculus
+- Curry-Howard
+- Typeclassopedia -> gaat te vroeg komen voor velen
 
 
 #Paasreces:
