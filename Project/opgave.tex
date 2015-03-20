@@ -1,0 +1,180 @@
+\documentclass{article}
+\usepackage{fancyvrb}
+\usepackage{url}
+\usepackage{amsmath,amsfonts}
+
+\title{Lessenreeks Haskell: Project}
+\date{Deadline: 23/04/2015}
+\author{Tom Schrijvers, Pieter Vander Vennet}
+
+\begin{document}
+\maketitle
+
+%-------------------------------------------------------------------------------
+\section{Inleiding}
+
+\emph{Live coding} heeft tot doel om de programmeur ogenblikkelijke feedback te
+geven over het programma dat hij schrijft. Hier zijn een aantal interessante
+voorbeelden van de visionaire Brett Victor:
+\begin{itemize}
+\item \emph{Inventing on Principle}, \url{http://vimeo.com/36579366}
+\item \emph{Learnable Programming}, \url{http://worrydream.com/LearnableProgramming/}
+\end{itemize}
+
+%-------------------------------------------------------------------------------
+\section{Het Project}
+In dit project gaan we een eenvoudige tool voor live coding maken.
+De tool leest een programma geschreven in de programmeertaal \textsc{While} in
+uit een tekstbestand, en drukt het programma met rechts ervan voorbeeldgedrag.
+
+Hier is een voorbeeld van mogelijke invoer:
+\begin{Verbatim}[frame=single,framesep=5mm,label={prog1.txt}]
+x = 3;
+y = 0;
+while (x > 0) {
+  x = x - 1;
+  y = y + 1
+}
+\end{Verbatim}
+uitvoering:
+\begin{Verbatim}
+  $ ./Main prog1.txt > output.txt
+\end{Verbatim}
+en overeenkomstige uitvoer:
+\begin{Verbatim}[frame=single,framesep=5mm,label={output.txt}]
+x = 3;            :   x = 3
+y = 0;            :   y = 0
+while (x > 0) {   :   x = 3 | 2 | 1
+                  :   y = 0 | 1 | 2
+  x = x - 1;      :   x = 2 | 1 | 0
+  y = y + 1       :   y = 1 | 2 | 3
+}                 :
+\end{Verbatim}
+
+Dit is maar een voorbeeld van een mogelijke weergave. Je bent vrij om zelf de
+weergave en het uitvoerformaat (bv. plain text, HTML, \ldots) te kiezen.
+De essentie moet wel aanwezig zijn in je uitvoer: de programma-code en
+de overeenkomstige waarden van de variabelen.
+
+%- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+\subsection{De \textsc{While} Taal}
+
+\paragraph{Syntax}
+De syntax van \textsc{While} programma's ziet er als volgt uit.
+
+Een programma is een \textit{statement}. Een statement is ofwel
+een toekenning, ofwel een \texttt{while}-lus ofwel een sequentie
+van twee statements.
+
+\[\begin{array}{rcl@{\hspace{3cm}}r}
+  s & ::=  & v = e  & \textit{assignments}\\
+    & \mid & \texttt{while} (c) \{ s \} & \textit{loops} \\
+    & \mid & s_1 ; s_2 & \textit{sequences}
+  \end{array} \]
+
+Een \textit{expressie} is ofwel een constante, een variabele,
+een optelling, een aftrekking, een vermenigvuldiging of een
+expressie tussen haakjes. De prioriteiten van de operatoren
+zijn de gebruikelijke: haakjes hebben voorrang op $*$, en $*$
+op $+$ en $-$.
+
+\[\begin{array}{rcl@{\hspace{3cm}}r}
+  e & ::=  & n~~(n \in \mathbb{N})& \textit{literals}\\
+    & \mid & x & \textit{variables} \\
+    & \mid & e + e & \textit{additions} \\
+    & \mid & e - e & \textit{subtractions} \\
+    & \mid & e * e & \textit{multiplications} \\
+    & \mid & (e)   & \textit{groupings} \\
+  \end{array} \]
+
+Er is slechts \'e\'en vorm van \textit{conditionele expressie}:
+
+\[\begin{array}{rcl@{\hspace{3cm}}r}
+  c & ::=  & e > e & \textit{greater-thans}
+  \end{array} \]
+
+Je mag ervan uitgaan dat alle invoerprogramma's voldoen aan deze
+syntax.
+
+\paragraph{Semantiek}
+De operationele semantiek van de taal is de gebruikelijke, imperatieve. Je moet
+geen rekening houden met randgevallen zoals integer overflow,
+ongeinitialiseerde variabelen of oneindige lussen.
+%-------------------------------------------------------------------------------
+\section{Functionaliteit}
+
+We schetsen de mogelijke opsplitsing in een aantal deelfunctionaliteiten:
+
+\begin{itemize}
+\item Een tekstbestand uitlezen.
+\item Tekst parsen naar een abstract syntax tree.
+\item Evaluatie van het programma:
+   \begin{itemize}
+   \item Definieer een \textit{programmatoestand} als een associatie van variabelen
+         met waarden.
+   \item Definieer evaluatie van statements.
+   \item Associeer met elk statement een programmatoestand.
+   \end{itemize}
+\item Pretty printen van het programma met geassocieerde toestanden.
+\end{itemize}
+
+\section{Hints}
+
+Je mag gebruik maken van bibliotheken. Hoewel zelf een parser en pretty-printer schrijven een uitstekende oefening is, mag je een parse- en html-bibliotheek gebruiken.
+
+%-------------------------------------------------------------------------------
+\section{Evaluatie}
+
+Je project zal worden bekeken en feedback erop zal je toegestuurd worden. Je krijgt geen punten, aangezien dat deze enkel nuttig zijn om op een rapport te zetten. Bij gebrek aan rapport, geen punten :p . Let echter wel op:
+
+\begin{itemize}
+\item correcte werking
+\item verzorgdheid van de code
+\item gebruik van de meest geschikte Haskell-features
+\item grote ``woordenschat'': diversiteit aan Haskell-features en library-functies
+\item verzorgdheid van de uitvoer
+\end{itemize}
+
+Om het maximum qua punten te halen, lever je extra inspanning (*) op een of meer
+van de volgende gebieden:
+\begin{itemize}
+\item Je genereert zeer complexe uitvoer.
+\item Je formuleert enkele relevante stellingen over functies die
+      je geschreven hebt, en bewijst ze of voorziet QuickCheck testen.
+\item \ldots
+\end{itemize}
+
+%-------------------------------------------------------------------------------
+\section{Indienen}
+
+Je werkt het liefst individueel, op die manier ga je het meeste leren. Er is echter niets mis met eens te spieken en van een ander bij te leren.
+
+Je kan indienen door een github te maken en deze door te sturen naar pieter.vandervennet@ugent.be
+
+Indien je geen github-account wenst te maken, stuur je een zip.
+
+Je inzending bestaat uit een \texttt{zip}-bestand met volgende inhoud:
+\begin{itemize}
+\item \texttt{README.txt}: Een opsomming van de bijkomende bestanden in de \texttt{zip}
+      file met hun functie, en een opsomming van de extra's (*) in je project.
+\item \texttt{Main.hs}: Hoofdmodule van je project. Compilatie van dit bestand
+      met \texttt{ghc --make Main.hs} genereert de binary executable.
+\item Eventuele andere bestanden nodig voor je project.
+\end{itemize}
+
+Het liefst zou ik jullie project op 23/04 ontvangen, zodat we de week erna jullie resultaten kunnen tonen. Ik ga proberen om jullie feedback te geven, maar ik heb ook nog projecten voor mijn vakken.
+
+Is jullie project maar deels af dan, stuur het toch op.
+
+%-------------------------------------------------------------------------------
+\section{Vragen, Opmerkingen en Voorbeeldprogramma's}
+
+Met al je inhoudelijke vragen en opmerkingen kan je terecht op de facebookgroep: https://www.facebook.com/groups/443970042422378/
+
+Verdere woensdagen worden ook voorzien om aan het project te werken, dus dan kun je ook al je vragen stellen.
+
+Als je voorbeeldprogramma's in \textsc{While} schrijft, wees dan solidair
+en deel ze. Je vindt al een paar voorbeelden op https://github.com/pietervdvn/While-tool. De voorbeeld output (Example.html) was van mijn project2 jaar geleden, en is zeker niet bindend.
+
+
+\end{document}
