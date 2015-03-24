@@ -106,9 +106,11 @@ Oefeningen: hogerer orde functies (.) en ($), foldr, foldl, filter, zip, const, 
 01/04
 > We zien wel wat we deze les doen :p
 
+Een van de volgende dingen?
 - Lambda-calculus
 - Curry-Howard
 - Typeclassopedia -> gaat te vroeg komen voor velen
+- Fix
 
 
 #Paasreces:
