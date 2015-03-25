@@ -70,7 +70,7 @@ Oefeningen: hogerer orde functies (.) en ($), foldr, foldl, filter, zip, const, 
 # Les 4
 18/03
 > Een goede informaticus moet lui zijn; net zoals zijn taal
-7p, state is moeilijk
+7p, (3p afgezegd) state is moeilijk
 
 - Records: Faux OO (kort)
 
@@ -89,6 +89,7 @@ Oefeningen: hogerer orde functies (.) en ($), foldr, foldl, filter, zip, const, 
 # Les 5 (week 7)
 25/03
 > A Hard truth; followed by warm and fuzzy things
+10p, maar 45 min, (1 afgezegd)
 
 - Bottom, undefined, error
 - Kinds

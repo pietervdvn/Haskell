@@ -32,4 +32,4 @@ Compileer "Main.hs"
 Project
 =======
 
-Begin eraan!
+Lees de opgave, begin eraan!
