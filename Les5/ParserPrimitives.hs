@@ -1,5 +1,5 @@
 -- | Implements the parser primitives
-module ParserPrimitives (Parser, getChar, (/\),(\/)) where
+module ParserPrimitives (Parser, prsChar, (/\),(\/), abort, runParser ) where
 
 data Parser a	= Parser {runParser :: String -> [(a,String)]}
 
@@ -29,3 +29,6 @@ prsChar	=  Parser (\str -> if null str then [] else [(head str, tail str)])
 			let midResultA = runParser a str in
 			let midResultB = runParser b str in
 			midResultA ++ midResultB)
+
+abort	:: Parser a
+abort	= Parser (\_ -> [])
