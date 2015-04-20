@@ -118,14 +118,8 @@ Een van de volgende dingen?
 8/04
 15/04
 
-# Project: hulpavond/deadline
-22/04
+Gezien er weinig mensen het project gemaakt hebben en ik weinig tijd heb, zijn er geen verdere lessen.
+Als je nog vragen hebt, ik zit vaak in de zeuskelder of kun je mij contacteren op facebook of per mail.
 
-# Project: voorstellingsavond + kom helpen aan mijn project avond (lang) (week 10)
-29/04
-
-# Haskellhacking of coole talk
-22/04
-
-# Haskellhacking (week 12, EOF)
-29/04
+Voor verdere FP-gerelateerde activiteiten schrijf je je best in op de [mailinglijst](https://groups.google.com/forum/#!forum/ghent-fpg).
+Ook [Zeus WPI](zeus.ugent.be) organiseert regelmatig computergerelateerde activiteiten.
